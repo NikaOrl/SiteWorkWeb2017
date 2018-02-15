@@ -1,0 +1,78 @@
+.prodTable {
+    margin: 50px;
+}
+
+.Cell1 {
+    width: 400px;
+    box-shadow: 0 0 20px 7px #ff3333;
+    background-image: url(/background/bmRed.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    align-content: center; margin: auto;
+}
+
+.txt1 {
+    width: 95%;
+    height: 95%;
+    background-color: rgba(255, 230, 230, 0.61);
+    box-shadow: inset 0 3px 20px 0px #ff0000;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+    line-height: 15px;
+    padding: 3px;
+    color: #901317;
+
+}
+.pic1 {
+    border: 4px solid #ac5c5c;
+    border-style:double;
+    border-radius: 10px;
+    box-shadow: inset 0 0 20px 5px #fc466a;
+}
+.pr1 {
+    width: 100%;
+    height: 100%;
+    background-color: #fd8f8f;
+    border: 0;
+    font-family: serif;
+    font-style: normal;
+    font-weight: 500;
+    color:crimson;
+    font-size: 16px;
+}
+
+.pr1:active {
+    width: 100%;
+    height: 120%;
+    background-color: #cda9ff;
+    top: 1px;
+    outline: none;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.3);
+    color: #6161e0;
+}
+
+.pr1:hover {
+    background-color: #cda9ff;
+    outline: none;
+    cursor: pointer;
+    color: #6161e0;
+}
+
+.pr1:focus {
+    outline: none;
+}
+.name1 {
+    width: 100%;
+    height: 58px;
+    border: 0;
+    font-family: 'Monoton', cursive;
+    line-height: 4px;
+    font-size: 50px;
+    color: #E00005;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+
+}
+.name1:focus {
+    outline: none;
+}

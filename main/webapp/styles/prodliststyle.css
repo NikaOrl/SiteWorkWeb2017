@@ -1,0 +1,8 @@
+body {
+    background-image: url(/background/bmBlue.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    align-content: center; margin: auto;
+    overflow-x: hidden;
+}

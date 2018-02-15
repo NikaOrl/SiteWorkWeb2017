@@ -1,0 +1,74 @@
+.prodTable {
+    margin: 50px;
+}
+
+.Cell2 {
+    width: 400px;
+    box-shadow: 0 0 20px 7px #3a2af7;
+    background-image: url(/background/bmBlue.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    align-content: center; margin: auto;
+}
+
+.name2 {
+    width: 100%;
+    height: 58px;
+    border: 0;
+    font-family: 'Monoton', cursive;
+    line-height: 4px;
+    font-size: 50px;
+    color: #0000E0;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+.name2:focus {
+    outline: none;
+}
+.pr2 {
+    width: 100%;
+    height: 100%;
+    background-color: #899bff;
+    border: 0;
+    font-family: serif;
+    font-style: normal;
+    font-weight: 500;
+    color:#321cac;
+    font-size: 16px;
+}
+.pr2:active {
+    width: 100%;
+    height: 120%;
+    background-color: #dda1fd;
+    top: 1px;
+    outline: none;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.3);
+    color: #fc466a;
+}
+.pr2:hover {
+    background-color: #dda1fd;
+    outline: none;
+    cursor: pointer;
+    color: #fc466a;
+}
+.pr2:focus {
+    outline: none;
+}
+.pic2 {
+    border: 4px solid #1c358b;
+    border-style:double;
+    border-radius: 10px;
+    box-shadow: inset 0 0 20px 5px #3a2af7;
+}
+.txt2 {
+    width: 95%;
+    height: 95%;
+    background-color: rgba(197, 226, 255, 0.6);
+    box-shadow: inset 0 3px 20px 0px #1400ad;
+    font-family: 'Nova Flat', cursive;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+    line-height: 15px;
+    padding: 3px;
+    color: #0e108d;
+}
